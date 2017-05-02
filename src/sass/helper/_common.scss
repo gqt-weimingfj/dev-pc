@@ -1,0 +1,21 @@
+$minWidth: 1100px;
+
+.fc-6{color: $c-666!important; }
+.fc-9{color: $c-999!important; }
+.fc-d{color: $c-ddd!important; }
+.fc-c{color: $c-ccc!important; }
+.fc-red{color: $red!important; }
+.fc-primary{color: $primary!important; }
+.fc-success{color: $success!important; }
+.fc-warning{color: $warning!important; }
+.fc-info{color: $info!important; }
+body{
+    min-width: $minWidth;
+    overflow-x: hidden;
+}
+
+.wrapper,.max-width,.wrapper-box{
+    width: $minWidth;
+    margin-left: auto;
+    margin-right: auto;
+}

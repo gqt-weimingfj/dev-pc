@@ -1,0 +1,13 @@
+.block-title{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid $success;
+	font-size: 18px;
+	a{
+		&:hover{
+			color: red;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.hover-img{
+	overflow: hidden;
+	&:hover{
+		img{
+			@include transform(scale(1.08));
+		}
+	}
+	img{
+		@include transition(all .5s);
+	}
+}
